@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link class="icon" rel="icon" href="logo.jpg" type="image/x-icon">
+    <title>Task Tracker</title>
+</head>
+<body>
+    
+    <header>
+        <div class="nav-bar">
+            <div class="circle"><p>T</p></div>
+
+            <div class="logo">Task</div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search everything">
+            </div>
+
+            <div class="options">
+                <p class="option">Tasks</p>
+                <p class="option">Theme</p>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="display">
+
+        <div class="display-head">
+            <div class="display-heading">
+                <h1>Task Manager</h1>
+            </div>
+    
+            <div class="add-task">
+                <h2>Add Task</h2>
+                <div class="task-circle">+</div>
+            </div>
+        </div>
+        
+
+        <div class="task-list">
+            
+        </div>
+
+    </div>
+
+    <div class="add-task-popup" style="display: none;">
+        
+        <div class="input-container">
+            <h2>Task Description</h2>
+            <input id="title" type="text" placeholder="Title">
+            <input id="description" type="text" placeholder="Description">
+            <button class="btn">Add</button>
+        </div>
+
+    </div>
+
+    <div class="theme-popup" style="display: none;">
+
+            <div class="input-container">
+
+                <h2>Theme</h2>
+
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+
+            </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
